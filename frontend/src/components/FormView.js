@@ -17,7 +17,7 @@ class FormView extends Component {
 
   componentDidMount(){
     $.ajax({
-      url: `/categories`, //TODO: update request URL
+      url: `/categories`, //No need to update because proxy defined in the package.json file
       type: "GET",
       success: (result) => {
         this.setState({ categories: result.categories })
@@ -34,7 +34,7 @@ class FormView extends Component {
   submitQuestion = (event) => {
     event.preventDefault();
     $.ajax({
-      url: '/questions', //TODO: update request URL
+      url: '/questions', //No need to update because proxy defined in the package.json file
       type: "POST",
       dataType: 'json',
       contentType: 'application/json',

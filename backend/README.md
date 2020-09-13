@@ -70,7 +70,7 @@ The Trivia API is a RESTful JSON API. The sections below explain how to use the 
 The API is not deployed and can only be accessed through the localhost:
 
 ```
-http://http://localhost:5000
+http://localhost:5000
 ```
 
 ### Open Endpoints
